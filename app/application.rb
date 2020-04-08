@@ -22,6 +22,7 @@ class Application
       resp.write "#{cart_item}\n"
     end 
   end 
+  elsif req.path.match(/cart/)
   
     else
       resp.write "Path Not Found"
